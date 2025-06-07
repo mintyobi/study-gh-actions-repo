@@ -1,6 +1,6 @@
 name: Condition
 on: push
-job:
+jobs:
   skip-or-run:
     runs-on: ubuntu-latest
     steps:
