@@ -8,4 +8,4 @@ jobs:
         env:
           CONTAINS_FUNC: ${{ contains('Hello', 'ell') }}       # 「ell」を含むか
           STARTS_WITH_FUNC: ${{ startswith('Hello', 'He') }}   # 「He」ではじまるか
-          ENDS_WITH_FUNC: ${{ endswith('Hello', 'lo' }}        # 「lo」でおわるか
+          ENDS_WITH_FUNC: ${{ endswith('Hello', 'lo' ) }}        # 「lo」でおわるか
