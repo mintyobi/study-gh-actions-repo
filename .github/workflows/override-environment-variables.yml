@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: echo "${EXAMPLE}"            # ワークフローレベルの環境変数を出力
       - env:
-        EXAMPLE: Defined by step level    #ステップレベルで環境変数をオーバーライド
+          EXAMPLE: Defined by step level    #ステップレベルで環境変数をオーバーライド
         run: echo "${EXAMPLE}"
