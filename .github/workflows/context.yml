@@ -1,3 +1,4 @@
+# この実装方法はアンチパターン
 name: Contexts
 on: push
 jobs:
