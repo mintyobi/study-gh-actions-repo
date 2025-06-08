@@ -1,8 +1,9 @@
+# GITHUB_ENV環境変数は不用意な利用は控えたほうが無難
 name: GITHUB_ENV
 on: push
 jobs:
   share:
     runs-on: ubuntu-latest
     steps:
-        run: echo "result=Hello" >> "${GITHUB_ENV}"  # GITHUB_ENVへ書き出し
-        run: echo "${RESULT}"                        # 通常の環境変数として参照
+      - run: echo "result=Hello" >> "${GITHUB_ENV}"  # GITHUB_ENVへ書き出し
+      - run: echo "${RESULT}"                        # 通常の環境変数として参照
