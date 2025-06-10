@@ -1,0 +1,8 @@
+# Dependabotの設定ファイル
+
+version: 2
+updates:
+  - package-ecosystem: github-actions  # パッケージエコシステム
+    directory: /                       # パッケージマニフェストの配置先ディレクトリ
+    schedule:                          # バージョンアップツール
+      interval: daily
