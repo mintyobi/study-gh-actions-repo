@@ -18,5 +18,5 @@ jobs:
         with:
           name: uploaded                     # アーティファクト名
           path: downloaded                   # ダウンロード先のパス
-      - run: cat downloaded/date/txt         # アーティファクトを標準出力
+      - run: cat downloaded/date.txt         # アーティファクトを標準出力
           
