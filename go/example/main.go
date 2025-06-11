@@ -1,5 +1,4 @@
-package: main
-
+package main
 import "fmt"
 
 var version string // ビルド時にldflagsフラグ経由でバージョンを埋め込むための変数
