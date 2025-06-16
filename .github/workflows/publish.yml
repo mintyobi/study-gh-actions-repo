@@ -7,7 +7,7 @@ on:
         required: true
         description: バージョン
 env:
-  IMAGE_NAME:gha-image                     # コンテナイメージ名
+  IMAGE_NAME: gha-image                     # コンテナイメージ名
 jobs:
   publish:
     runs-on: ubuntu-latest
