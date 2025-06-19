@@ -1,0 +1,10 @@
+name: Convert
+on: push
+env:
+  TIMEOUT: 1
+jobs:
+  sleep:
+    rus-on: ubuntu-latest
+    steps:
+      - run: sleep 120
+        timeout-minutes: ${{ fromJSON(env.TIMEOUT) }} # String型をnumber型へ変換
